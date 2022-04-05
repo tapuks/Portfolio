@@ -1,0 +1,28 @@
+.about-me {
+    margin-top: 200px;
+
+    p {
+        margin: 0;
+        font-family: cursivee;
+        font-size: 20px;
+        color: grey;
+        padding-left: 15px;
+    }
+
+    h2 {
+        font-family: title;
+        color: #08fdd8;
+        font-size: 4rem;
+        font-weight: 700;
+        padding-left: 30px;
+    }
+
+    &-text {
+        color: white !important;
+        font-size: 16px;
+        font-family: sans-serif !important;
+        padding-left: 35px !important;
+        // margin-bottom: 1rem !important;
+
+    }
+}

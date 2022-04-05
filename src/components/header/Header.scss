@@ -1,0 +1,144 @@
+@font-face {
+    font-family: cursivee;
+    src: url(../../assets/fonts/CedarvilleCursive-Regular.ttf);
+}
+
+@font-face {
+    font-family: title;
+    src: url(../../assets/fonts/PTSansNarrow-Bold.ttf);
+}
+
+.header {
+    &_cabecera {
+        p {
+            margin: 0;
+            font-family: cursivee;
+            font-size: 20px;
+            color: grey;
+        }
+
+        p:nth-child(1) {
+            padding-top: 20px;
+
+        }
+
+        p:nth-child(2) {
+            padding-left: 10px;
+            padding-bottom: 200px;
+        }
+
+        p:nth-child(3) {
+            padding-left: 10px;
+        }
+    }
+
+    &_title {
+
+        &-photo {
+            .photo {
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+                background-image: url('../../assets/img/perfil.jpg');
+                background-position: center top;
+                background-size: cover;
+            }
+        }
+
+        &-title {
+
+
+
+
+            h1 {
+                font-family: title;
+                color: white;
+                font-size: 6rem;
+                font-weight: 700;
+                padding-left: 20px;
+
+                .cierre-h1 {
+                    color: grey;
+                    font-family: cursivee;
+                    margin: 0;
+                    font-size: 18px;
+                }
+            }
+
+            .letra-especial {
+                color: rgb(255, 35, 79);
+                text-shadow: -8px 3px 0 #08fdd8;
+                transition: color 0.8s linear;
+            }
+
+            .letra-normal {
+                transition: color 0.8s, font-size 0.5s linear 0.2s;
+            }
+
+            .letra-normal:hover {
+                animation-name: animation-letter;
+                animation-duration: 1s;
+            }
+
+
+        }
+    }
+
+    &_footer {
+        p {
+            color: grey;
+            font-family: cursivee;
+            margin: 0;
+            font-size: 20px;
+            padding-left: 15px;
+        }
+
+        p:nth-child(2) {
+            color: rgba(255, 255, 255, 0.601);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding-left: 25px;
+        }
+    }
+}
+
+
+@keyframes animation-letter {
+
+    25% {
+        color: #08fdd8;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+
+    45% {
+        color: #08fdd8
+    }
+
+    100% {
+        font-size: 6rem;
+        font-weight: 700;
+        color: #08fdd8
+    }
+}
+
+@media (max-width: 500px) {
+    .header_title {
+        h1 {
+            font-size: 3rem;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            background-image: url('../../assets/img/perfil.jpg');
+            background-position: center top;
+            background-size: cover;
+        }
+
+
+    }
+
+
+}
