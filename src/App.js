@@ -1,6 +1,4 @@
 
-import './App.css';
-import { Button } from 'react-bootstrap';
 import Header from './components/header';
 import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies'
@@ -14,9 +12,9 @@ function App() {
     <div >
       <Header />
       <AboutMe />
+      <Proyectos />
       <Technologies />
       <CursosUdemy />
-      <Proyectos />
       <Footer />
     </div>
   );

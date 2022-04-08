@@ -15,20 +15,6 @@ import cursoGit from "../../assets/img/cursoGit.jpg";
 import imgUdemy from "../../assets/img/imgUdemy.png";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import './CursosUdemy.scss'
 import Cards from "../Cards/Cards";
 
@@ -36,7 +22,7 @@ export default function CursosUdemy() {
 	document.body.style = "background: black";
 
 	const cursos = {
-		cursos: [
+		result: [
 			{
 				id: 1,
 				title: "HTML5 desde cero Edición 2020",

@@ -10,7 +10,7 @@ export default function Cards(props) {
             <p>&lt;div&gt;</p>
             <Row className='mt-5'
             >
-                {data.cursos.map(item => {
+                {data.result.map(item => {
                     return (
                         <>
                             <Col xs={12} md={6} lg={4} key={item.id} className="mb-5 text-center">
@@ -31,7 +31,7 @@ function CardComponent(props) {
         <Card className="cursos-udemy_cards-card" style={{ width: "17rem" }}>
             <Card.Img variant="top" src={item.imagen} />
             <Card.Body>
-                <Card.Title>{item.title}</Card.Title>
+                <Card.Title> <a href={item.enlace} target="_blank">{item.title}</a></Card.Title>
             </Card.Body>
         </Card>
     )
