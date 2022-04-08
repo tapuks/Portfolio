@@ -1,0 +1,50 @@
+.technologies {
+  padding-top: 50px;
+
+  &_title {
+    p {
+      margin: 0;
+      font-family: cursivee;
+      font-size: 20px;
+      color: grey;
+      padding-left: 15px;
+    }
+
+    h2 {
+      font-family: title;
+      color: #08fdd8;
+      font-size: 4rem;
+      font-weight: 700;
+      padding-left: 30px;
+    }
+  }
+
+  &_icons {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .img-django {
+      width: 70px;
+      height: 40px;
+    }
+
+    .col-md-3,
+    .col-6 {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    &-p {
+      margin: 0;
+      font-family: cursivee;
+      font-size: 20px;
+      color: grey;
+      padding-left: 15px;
+    }
+
+  }
+
+
+}

@@ -1,0 +1,21 @@
+.cursos-udemy {
+    padding-top: 50px;
+
+    &_title {
+        h2 {
+            font-family: title;
+            color: #08fdd8;
+            font-size: 4rem;
+            font-weight: 700;
+            padding-left: 30px;
+        }
+
+        p {
+            margin: 0;
+            font-family: cursivee;
+            font-size: 20px;
+            color: grey;
+            padding-left: 15px;
+        }
+    }
+}

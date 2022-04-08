@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Container, Col, Row } from 'react-bootstrap'
+import DownloadCurriculum from '../DownloadCurriculum';
 import './Header.scss'
 
 
@@ -60,7 +61,11 @@ export default function Header() {
                         <h1>{line3}<span className='cierre-h1'>&lt;/h1&gt;</span></h1>
                     </Col>
                     <Col className='header_title-photo'>
-                        <div className='photo'></div>
+                        <div className='header_title-photo-container'>
+                            <div className='photo'></div>
+                            <DownloadCurriculum />
+                        </div>
+
                     </Col>
                 </Row>
                 <div className='header_footer'>

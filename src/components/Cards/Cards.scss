@@ -1,0 +1,40 @@
+.cards {
+
+    p {
+        margin: 0;
+        font-family: cursivee;
+        font-size: 20px;
+        color: grey;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        .row {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+
+}
+
+@media (min-width: 900px) {
+    .cards {
+        .row {
+            max-width: 90%;
+            margin: auto;
+        }
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .cards {
+        .row {
+            max-width: 75%;
+            margin: auto;
+        }
+    }
+
+}
