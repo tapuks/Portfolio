@@ -20,13 +20,13 @@ export default function Proyectos() {
                     id: 1,
                     title: "Tweeter simulator",
                     imagen: tweet,
-                    enlace: "https://strong-souffle-f7f699.netlify.app/"
+                    enlace: "https://euphonious-tiramisu-a1c650.netlify.app/"
                 },
                 {
                     id: 2,
                     title: "Ecommerce Carrito",
                     imagen: helados,
-                    enlace: "https://creative-lily-623bc3.netlify.app/"
+                    enlace: "https://pedidostapuks.herokuapp.com/"
                 },
                 {
                     id: 3,
