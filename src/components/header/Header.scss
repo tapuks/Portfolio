@@ -35,6 +35,8 @@
     &_title {
 
         &-photo {
+            margin-top: 400px;
+
             &-container {
                 display: flex;
                 flex-direction: column;
@@ -141,13 +143,21 @@
             width: 150px;
             height: 150px;
             border-radius: 100%;
-            background-image: url('../../assets/img/perfil.jpg');
-            background-position: center top;
+            background-image: url('../../assets/img/yo.png');
+            // background-position: center top;
             background-size: cover;
+            // margin-top: 0px;
         }
 
-
+        &-photo {
+            margin-top: 100px;
+        }
     }
+}
 
+@media (max-width: 768px) {
+    .header_title-photo {
 
+        margin-top: 100px;
+    }
 }

@@ -5,6 +5,8 @@ import helados from '../../assets/img/helados.PNG'
 import movies from '../../assets/img/movies.PNG'
 import tragaperras from '../../assets/img/tragaperras.png'
 import tresRalla from '../../assets/img/tresRalla.PNG'
+import ahorcado from '../../assets/img/ahorcado.PNG'
+
 
 
 
@@ -47,6 +49,12 @@ export default function Proyectos() {
                     title: "Tres en ralla",
                     imagen: tresRalla,
                     enlace: "https://tres-ralla.herokuapp.com/"
+                },
+                {
+                    id: 6,
+                    title: "Ahorcado",
+                    imagen: ahorcado,
+                    enlace: "https://ahorcado-db.herokuapp.com/"
                 },
 
             ]

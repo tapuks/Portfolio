@@ -61,6 +61,12 @@ export default function Header() {
                         <h1>{line1}</h1>
                         <h1>{line2}</h1>
                         <h1>{line3}<span className='cierre-h1'>&lt;/h1&gt;</span></h1>
+                        <div className='header_footer'>
+
+                            <p>&lt;p&gt;</p>
+                            <p>Full Stack Developer</p>
+                            <p>&lt;/p&gt;</p>
+                        </div>
                     </Col>
                     <Col className='header_title-photo'>
                         <div className='header_title-photo-container'>
@@ -70,12 +76,7 @@ export default function Header() {
 
                     </Col>
                 </Row>
-                <div className='header_footer'>
 
-                    <p>&lt;p&gt;</p>
-                    <p>Full Stack Developer</p>
-                    <p>&lt;/p&gt;</p>
-                </div>
             </div>
         </Container>
     )
